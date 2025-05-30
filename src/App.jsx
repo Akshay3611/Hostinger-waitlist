@@ -1,7 +1,15 @@
+import Header from "./components/Header";
+import body from "./components/body";
+import footer from "./components/footer";
+
 function App() {
   return (
     <>
-      <div>Hello ji</div>
+      <div>
+        <Header />
+        <body />
+        <footer />
+      </div>
     </>
   );
 }
