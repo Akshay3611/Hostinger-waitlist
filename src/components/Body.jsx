@@ -2,7 +2,7 @@ import React from "react";
 
 function body() {
   return (
-    <div>
+    <div className="space-y-4">
       <div className="flex items-center justify-center">
         <img
           src="..\Assets\Blue Shape.svg"
