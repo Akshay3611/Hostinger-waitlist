@@ -42,7 +42,7 @@ function body() {
             placeholder="Enter your email address"
           />
           <br></br>
-          <button className="rounded-md px-4 py-1 bg-blue-400 hover: bg-blue-600 text-white">
+          <button className="rounded-md px-4 py-1 text-amber-300 bg-blue-400 hover:bg-amber-500 hover:text-white">
             Join Waitlist
           </button>
           <br></br>
