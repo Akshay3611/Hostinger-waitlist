@@ -1,7 +1,6 @@
 {
-  "name": "Hostinger-waitlist",
-  "homepage": "https://Akshay3611.github.io/Hostinger-waitlist/",
-  "private": true,
+  "name": "hostinger-waitlist",
+  "homepage": "https://Akshay3611.github.io/hostinger-waitlist",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
