@@ -7,22 +7,22 @@ function body() {
         <img
           src="..\Assets\Blue Shape.svg"
           alt="1st layer"
-          className="-rotate-45 h-64"
+          className="-rotate-45 h-64 md:h-72"
         ></img>
         <img
           src="..\Assets\Pink Shape.svg"
           alt="2nd layer"
-          className="absolute -rotate-35 h-64"
+          className="absolute -rotate-35 h-64 md:h-72"
         ></img>
         <img
           src="..\Assets\Purple Shape.svg"
           alt="3rd  layer"
-          className="absolute -rotate-15 h-64"
+          className="absolute -rotate-15 h-64 md:h-72"
         ></img>
         <img
           src="..\Assets\Hero Image (Model).png"
           alt="hero"
-          className="absolute h-64"
+          className="absolute h-64 md:h-72"
         ></img>
       </div>
       <div>
@@ -35,7 +35,7 @@ function body() {
         </p1>
         <br></br>
         <br></br>
-        <form action="" className="flex flex-col gap 4">
+        <form action="" className="flex flex-col gap 4 md:flex-row gap-3">
           <input
             className="rounded-md px-4 py-3 bg-white border-2 border-s-amber-600 placeholder: text-gray-400 border-r-2 px-"
             type="email"
@@ -47,6 +47,7 @@ function body() {
           </button>
           <br></br>
         </form>
+        <br></br>
         <div className="flex gap-4">
           <img src="../Assets/Checkmark.svg" alt="checkmark"></img>
           <p>No spam, ever . Unsubscribe anytime</p>

@@ -1,34 +1,32 @@
 import React from "react";
 
-const footer = () => {
+const Footer = () => {
   return (
-    <div className="flex flex-col gap-12">
+    <div className="flex flex-col gap-12 md:flex-row md:justify-between">
       <div className="font-Lato">
         <ul className="flex gap-6 text-gray-400">
           <li>
             <a href="#">Facebook</a>
           </li>
           <li>
-            <a href="#">instagram</a>
+            <a href="#">Instagram</a>
           </li>
           <li>
-            <a href="#">twitter</a>
+            <a href="#">Twitter</a>
           </li>
         </ul>
-        <br></br>
-        <br></br>
-        <div className="flex gap-2">
-          <img src="..\Assets\Help Avatar.svg" alt="Help-Avatar"></img>
-          <div className="">
-            <p className="font-Playfair">Have any Questions?</p>
-            <a href="" className="font-Lato font-medium">
-              Talk to a specialist
-            </a>
-          </div>
+      </div>
+      <div className="flex gap-2">
+        <img src="..\Assets\Help Avatar.svg" alt="Help-Avatar" />
+        <div>
+          <p className="font-Playfair">Have any Questions?</p>
+          <a href="#" className="font-Lato font-medium">
+            Talk to a specialist
+          </a>
         </div>
       </div>
     </div>
   );
 };
 
-export default footer;
+export default Footer;
