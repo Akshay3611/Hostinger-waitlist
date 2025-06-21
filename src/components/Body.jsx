@@ -5,22 +5,22 @@ function body() {
     <div className="space-y-4 lg:flex">
       <div className="flex items-center justify-center lg:flex-1 lg:order-2">
         <img
-          src="..\Assets\Blue Shape.svg"
+          src="../hostinger-waitlist/public/Assets/Blue Shape.svg"
           alt="1st layer"
           className="-rotate-45 h-64 md:h-72 lg:h-130"
         ></img>
         <img
-          src="..\Assets\Pink Shape.svg"
+          src="../hostinger-waitlist/public/Assets/Pink Shape.svg"
           alt="2nd layer"
           className="absolute -rotate-35 h-64 md:h-72 lg:h-130"
         ></img>
         <img
-          src="..\Assets\Purple Shape.svg"
+          src="../hostinger-waitlist/public/Assets/Purple Shape.svg"
           alt="3rd  layer"
           className="absolute -rotate-15 h-64 md:h-72 lg:h-130"
         ></img>
         <img
-          src="..\Assets\Hero Image (Model).png"
+          src="../hostinger-waitlist/public/Assets/Hero Image (Model).png"
           alt="hero"
           className="absolute h-64 md:h-72 lg:h-130"
         ></img>
@@ -49,7 +49,10 @@ function body() {
         </form>
         <br></br>
         <div className="flex gap-4 lg:h-10">
-          <img src="../Assets/Checkmark.svg" alt="checkmark"></img>
+          <img
+            src="../hostinger-waitlist/public/Assets/Checkmark.svg"
+            alt="checkmark"
+          ></img>
           <p className="lg:text w-3xl">No spam, ever . Unsubscribe anytime</p>
         </div>
       </div>
